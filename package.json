@@ -1,9 +1,9 @@
 {
-  "name": "sb-admin",
+  "name": "jam-admin",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/start-angular/sb-admin-angular"
+    "url": "git+https://github.com/start-angular/sb-admin-angular.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -43,5 +43,16 @@
     "start": "grunt serve",
     "dist": "grunt serve:dist",
     "postinstall": "bower install"
-  }
+  },
+  "description": "Frontend admin page",
+  "bugs": {
+    "url": "https://github.com/start-angular/sb-admin-angular/issues"
+  },
+  "homepage": "https://github.com/start-angular/sb-admin-angular#readme",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
 }
